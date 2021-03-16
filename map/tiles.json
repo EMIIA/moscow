@@ -5,15 +5,7 @@
         "https://tiles-c.basemaps.cartocdn.com/vectortiles/carto.streets/v1/{z}/{x}/{y}.mvt",
         "https://tiles-d.basemaps.cartocdn.com/vectortiles/carto.streets/v1/{z}/{x}/{y}.mvt"
     ],
-    "name": "CARTO vector tiles",
-    "format": "pbf",
-    "id": "carto.streets/v1",
-    "<a href=\"https://emiia.ai/\" target=\"_blank\" rel=\"noopener\">EMIIA.AI</a>"
-    "center": [
-        -12.2168,
-        28.6135,
-        4
-    ],
+    
     "description": "OpenStreetMap data packaged by OpenMapTiles",
     "maxzoom": 14,
     "minzoom": 0,
