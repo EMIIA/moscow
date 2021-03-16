@@ -8,7 +8,7 @@
     "name": "CARTO vector tiles",
     "format": "pbf",
     "id": "carto.streets/v1",
-    "attribution": "&copy; <a href=\"https://carto.com/about-carto/\" target=\"_blank\" rel=\"noopener\">CARTO</a>, &copy; <a href=\"http://www.openstreetmap.org/about/\" target=\"_blank\">OpenStreetMap</a> contributors",
+    "attribution": <a href=\"https://emiia.ai/\" target=\"_blank\" rel=\"noopener\">EMIIA.AI</a>",
     "center": [
         -12.2168,
         28.6135,
