@@ -129,7 +129,7 @@ progress::-webkit-progress-value {
 <div id="app"></div>
 <!-- partial -->
 
-
+<script type="text/javascript" src="https://moscow.emiia.ai/map/maptalks.min.js"></script>
   
   <script type="text/javascript" src="https://moscow.emiia.ai/map/map1/mapbox-gl.js"></script>
   
@@ -142,7 +142,16 @@ progress::-webkit-progress-value {
   
   
  
-  
+  <script>
+//Inspired by Leaflet.Heat
+//https://github.com/Leaflet/Leaflet.heat
+var data = addressPoints.map(function (p) { return [p[1], p[0]]; });
+var heatlayer = new maptalks.HeatLayer('heat', data, {
+    'heatValueScale': 0.7,
+    'forceRenderOnRotating' : true,
+    'forceRenderOnMoving' : true
+}).addTo(map);
+</script>
   
   
   
