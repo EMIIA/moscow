@@ -4,7 +4,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZW1paWFhaSIsImEiOiJja21icnU4bHkyNGRwMnFrbjVvN
         center: [37.574, 55.758],
         zoom: 8.32,
         pitch: 27,
-        bearing: -17.6,
+        bearing: -173.6,
         container: 'map',
         antialias: true
     });
