@@ -32,7 +32,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZW1paWFhaSIsImEiOiJja21icnU4bHkyNGRwMnFrbjVvN
                 'type': 'fill-extrusion',
                 'minzoom': 15,
                 'paint': {
-                    'fill-extrusion-color': '#aaa',
+                    'fill-extrusion-color': '#d4d4d4',
 
                     // Use an 'interpolate' expression to
                     // add a smooth transition effect to
@@ -55,7 +55,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZW1paWFhaSIsImEiOiJja21icnU4bHkyNGRwMnFrbjVvN
                         15.05,
                         ['get', 'min_height']
                     ],
-                    'fill-extrusion-opacity': 0.45
+                    'fill-extrusion-opacity': 0.5
                 }
             },
 
