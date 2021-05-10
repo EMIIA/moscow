@@ -1,0 +1,15 @@
+{
+  "background_color": "#f8f9fa",
+  "description": "BIM-MAP",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+    }
+  ],
+  "name": "BIM-MAP",
+  "short_name": "BIM-MAP",
+  "start_url": "/map"
+}
