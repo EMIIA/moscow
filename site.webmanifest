@@ -1,6 +1,6 @@
 {
   "background_color": "transparent",
-  "description": "EMIIA.AI MAPS",
+  "description": "EMIIA.AI",
   "display": "fullscreen",
   "icons": [
     {
@@ -9,7 +9,7 @@
             "type": "image/png"
     }
   ],
-  "name": "EMIIA.AI MAPS",
-  "short_name": "EMIIA.AI MAPS",
+  "name": "EMIIA.AI",
+  "short_name": "EMIIA.AI",
   "start_url": "/maps.html"
 }
