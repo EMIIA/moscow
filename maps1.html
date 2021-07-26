@@ -251,7 +251,7 @@ progress::-webkit-progress-value {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-
+body {margin:0;height:2000px;}
 
 .icon-bar {
   position: fixed;
@@ -270,7 +270,9 @@ progress::-webkit-progress-value {
   font-size: 15px;
 }
 
-
+.icon-bar a:hover {
+    background-color: transparent;
+}
 
 .facebook {
   background: transparent;
@@ -297,24 +299,25 @@ progress::-webkit-progress-value {
   color: white;
 }
 
-
-
-
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
 </style>
-
-
-
 <body>
 
 <div class="icon-bar">
-  <a href="#" title="Tools" class="facebook"><a href="" title="Tools">
-<img src="https://analytics.emiia.ai/svg/strelka2.svg" ></i></a>
+  <a href="#" title="Tools"><i class="facebook">
+<img src="https://analytics.emiia.ai/svg/strelka2.svg" ></i></a> 
 
-  <a href="#" class="twitter"><a href="" title="Search">
+
+
+  <a href="#" title="Search" class="twitter"><i class="twitter">
 <img src="https://analytics.emiia.ai/svg/strelka3.svg" ></i></a> 
 
 
-  <a href="#" class="google"><a href="" title="Location">
+
+  <a href="#" title="Location" class="google"><i class="google">
 <img src="https://analytics.emiia.ai/svg/strelka1.svg" ></i></a> 
 
 </div>
@@ -330,7 +333,7 @@ progress::-webkit-progress-value {
 
 
 
-<div style="position: fixed; top: 0.2%; left: 0.3em; z-index: +20000;">
+<div style="position: fixed; top: 0.5%; left: 0.3em; z-index: +20000;">
 
   <a href="" title="Menu">
 <img src="https://analytics.emiia.ai/svg/strelka5.svg" />
@@ -341,7 +344,7 @@ progress::-webkit-progress-value {
 	  
 	  
 	  
-	  <div style="position: fixed; bottom:0px; left:1.5em; 
+	  <div style="position: fixed; bottom:0px; left:1.3em; 
  z-index: +20000;">
 
   <a href="https://www.emiia.ai" title="EMIIA.AI">
